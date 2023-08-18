@@ -1,0 +1,27 @@
+:root {
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    background-color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1em;
+}
+
+.tabsRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.tab {
+    font-size: 1.5rem;
+}
