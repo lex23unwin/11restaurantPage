@@ -1,1 +1,0 @@
-alert("you a pussy ass bitch")
