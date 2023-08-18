@@ -105,6 +105,7 @@ function createTabs() {
         while (content.hasChildNodes()) {
             content.removeChild(content.lastChild);
         }
+        createTabs();
         (0,_home_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
     })
 
@@ -116,6 +117,7 @@ function createTabs() {
         while (content.hasChildNodes()) {
             content.removeChild(content.lastChild);
         }
+        createTabs();
         (0,_menu_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
     })
 
@@ -127,6 +129,7 @@ function createTabs() {
         while (content.hasChildNodes()) {
             content.removeChild(content.lastChild);
         }
+        createTabs();
         (0,_contact_js__WEBPACK_IMPORTED_MODULE_2__["default"])();
     })
 

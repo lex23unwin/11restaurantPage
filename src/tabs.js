@@ -15,6 +15,7 @@ export default function createTabs() {
         while (content.hasChildNodes()) {
             content.removeChild(content.lastChild);
         }
+        createTabs();
         createHome();
     })
 
@@ -26,6 +27,7 @@ export default function createTabs() {
         while (content.hasChildNodes()) {
             content.removeChild(content.lastChild);
         }
+        createTabs();
         createMenu();
     })
 
@@ -37,6 +39,7 @@ export default function createTabs() {
         while (content.hasChildNodes()) {
             content.removeChild(content.lastChild);
         }
+        createTabs();
         createContact();
     })
 
