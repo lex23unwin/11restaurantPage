@@ -39,8 +39,8 @@ body {
     color: white;
     background-color: rgba(0,0,0,0.5);
     margin-top: 5em;
-    gap: 1.5em;
-    padding: 1em;
+    gap: 5em;
+    padding: 10em;
 }
 
 .cta {
@@ -75,6 +75,7 @@ body {
     color: white;
     width: 100%;
     margin-top: 50px;
+    position: absolute;
     bottom: 0px;
     background-color: rgba(0,0,0,0.5);
     height: 50px;
