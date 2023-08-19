@@ -1,27 +1,98 @@
-:root {
-
-}
-
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 body {
-    background-color: aqua;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 1em;
+    background-image: url('./images/chef.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tabsRow {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     gap: 3em;
+    background-color: rgba(0,0,0,0.5);
+    color: #ddd;
+    padding: 0 2em;
 }
 
 .tab {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#titleTab {
+    margin-left: auto;
+}
+
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 5em;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.cta {
+    font-size: 4rem;
+    width: 600px;
+    text-align: center;
+}
+
+.cta2 {
+    font-size: 2rem;
+    width: 600px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.orderNowButton {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.informationBelow {
+    width: 200px;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.contactContent {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2em;
+    margin: 4em 0;
+    padding: 1em;
 }
