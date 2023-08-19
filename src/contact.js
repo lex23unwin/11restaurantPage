@@ -15,7 +15,7 @@ export default function createContact() {
     hoursContact2.textContent += "Fri-Sun: 9am - 11pm"
 
     const phoneContact = document.createElement("div")
-    phoneContact.textContent = "123-456-7890"
+    phoneContact.textContent = "123-455-7890"
     
     contactContent.appendChild(addressContact)
     contactContent.appendChild(hoursContact)
