@@ -12,7 +12,7 @@ export default function createMenu() {
     const menuItem1 = document.createElement("div")
     menuItem1.classList.add("menuItem")
     const menuItemImage = document.createElement("img")
-    menuItemImage.src = "./images/pb&j.jpg"
+    menuItemImage.src = "./images/pb&j.jpeg"
     menuItemImage.alt = "PB&J sandwhich"
     menuItemImage.classList.add("image")
     const menuItemDescription = document.createElement("div")
@@ -24,7 +24,7 @@ export default function createMenu() {
     const menuItem2 = document.createElement("div")
     menuItem2.classList.add("menuItem")
     const menuItemImage2 = document.createElement("img")
-    menuItemImage2.src = "./images/pb&j.jpg"
+    menuItemImage2.src = "./images/pb&j.jpeg"
     menuItemImage2.alt = "PB&J sandwhich"
     menuItemImage2.classList.add("image")
     const menuItemDescription2 = document.createElement("div")
@@ -36,7 +36,7 @@ export default function createMenu() {
     const menuItem3 = document.createElement("div")
     menuItem3.classList.add("menuItem")
     const menuItemImage3 = document.createElement("img")
-    menuItemImage3.src = "./images/pb&j.jpg"
+    menuItemImage3.src = "./images/pb&j.jpeg"
     menuItemImage3.alt = "PB&J sandwhich"
     menuItemImage3.classList.add("image")
     const menuItemDescription3 = document.createElement("div")
